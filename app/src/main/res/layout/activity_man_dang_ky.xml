@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ManDangKy">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Đăng ký"
+        android:textColor="#2196F3"
+        android:textSize="40sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:drawableRight="@drawable/ic_taikhoan"
+        android:id="@+id/dktaikhoan"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:hint="Tài khoản"></EditText>
+
+    <EditText
+        android:drawableRight="@drawable/ic_matkhau"
+        android:id="@+id/dkmatkhau"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Mật khẩu"></EditText>
+
+    <EditText
+        android:drawableRight="@drawable/ic_email"
+        android:id="@+id/dkEmail"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:textSize="20sp"></EditText>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/dkdangky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đăng Ký"
+        android:textSize="20sp"></Button>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/dkdangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Trở Về Đăng Nhập"
+        android:textSize="20sp"></Button>
+
+</LinearLayout>
